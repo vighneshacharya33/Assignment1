@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    background-color: #f4f4f4;
+}
+
+.categories {
+    padding: 20px;
+    text-align: center;
+}
+
+.cake-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cake-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.cake-card img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.cart {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .cake-grid {
+        flex-direction: column;
+    }
+}
